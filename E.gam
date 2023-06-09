@@ -1,0 +1,24 @@
+# Filename:E.gam
+# export classpath:
+# Title:EType
+# background:
+# cant units:0
+# Cant Ports:3
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:25
+# 	Port ID:in1
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:26
+# 	Port ID:in2
+# 	Port In/Out:In
+# 	Port Type:Integer
+# 	Port Class:gui.model.port.AtomicPort
+# 	Port UniqueId:27
+# 	Port ID:out
+# 	Port In/Out:Out
+# 	Port Type:Integer
+# Cant Links:0
+# Initial Name:
+# Vars cant:0

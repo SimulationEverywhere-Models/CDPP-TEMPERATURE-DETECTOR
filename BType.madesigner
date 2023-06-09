@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_5xOJMBc8EeKF6awALgBpEw" modelName="top" defined="true" sourceFileRelativePath="BType.ma">
+    <ports xmi:type="CoupledPort" xmi:id="_5xOJMRc8EeKF6awALgBpEw" portName="out" portType="OUTPUT_PORT" incomingLinks="_5xOJNxc8EeKF6awALgBpEw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_5xOJMhc8EeKF6awALgBpEw" portName="in" outgoingLinks="_5xOJOBc8EeKF6awALgBpEw"/>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_5xOJMxc8EeKF6awALgBpEw" instanceName="B">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_5xOJNBc8EeKF6awALgBpEw" modelName="BType" defined="true" sourceFileRelativePath="BType.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_5xOJNRc8EeKF6awALgBpEw" portName="in" incomingLinks="_5xOJOBc8EeKF6awALgBpEw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_5xOJNhc8EeKF6awALgBpEw" portName="out" portType="OUTPUT_PORT" outgoingLinks="_5xOJNxc8EeKF6awALgBpEw"/>
+      </modelType>
+    </atomicModels>
+    <links xmi:type="CoupledLink" xmi:id="_5xOJNxc8EeKF6awALgBpEw" target="_5xOJMRc8EeKF6awALgBpEw" source="_5xOJNhc8EeKF6awALgBpEw"/>
+    <links xmi:type="CoupledLink" xmi:id="_5xOJOBc8EeKF6awALgBpEw" target="_5xOJNRc8EeKF6awALgBpEw" source="_5xOJMhc8EeKF6awALgBpEw"/>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_5xOJORc8EeKF6awALgBpEw" type="DEVS" element="_5xOJMBc8EeKF6awALgBpEw" name="BType.madesigner" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_5xXTIRc8EeKF6awALgBpEw" type="2002" element="_5xOJMRc8EeKF6awALgBpEw">
+      <children xmi:type="notation:Node" xmi:id="_5xXTJhc8EeKF6awALgBpEw" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_5xXTIhc8EeKF6awALgBpEw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_5xXTIxc8EeKF6awALgBpEw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_5xXTJBc8EeKF6awALgBpEw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5xXTJRc8EeKF6awALgBpEw" x="430" y="40"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5xXTJxc8EeKF6awALgBpEw" type="2002" element="_5xOJMhc8EeKF6awALgBpEw">
+      <children xmi:type="notation:Node" xmi:id="_5xXTLBc8EeKF6awALgBpEw" type="5005"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_5xXTKBc8EeKF6awALgBpEw"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_5xXTKRc8EeKF6awALgBpEw"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_5xXTKhc8EeKF6awALgBpEw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5xXTKxc8EeKF6awALgBpEw" x="105" y="35"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_5xXTLRc8EeKF6awALgBpEw" type="2003" element="_5xOJMxc8EeKF6awALgBpEw">
+      <children xmi:type="notation:Node" xmi:id="_5xXTMBc8EeKF6awALgBpEw" type="5007"/>
+      <styles xmi:type="notation:ShapeStyle" xmi:id="_5xXTLhc8EeKF6awALgBpEw" fontName="微软雅黑"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5xXTLxc8EeKF6awALgBpEw" x="220"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_5xOJOhc8EeKF6awALgBpEw"/>
+  </notation:Diagram>
+</xmi:XMI>
